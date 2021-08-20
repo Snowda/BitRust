@@ -1,0 +1,21 @@
+[package]
+
+name = "bitrust"
+version = "0.0.1"
+authors = ["Conor Forde"]
+edition = '2018'
+
+repository = "https://www.github.com/Snowda/BitRust"
+
+description = "Data sceince in Rust"
+keywords = ["Data"]
+
+[[bin]]
+name = "test"
+path = "src/main.rs"
+
+[dependencies]
+arrow = "5.2.0"
+kafka = "0.8.0"
+ndarray = "0.15.3"
+pagerduty-rs = "0.1.1"
