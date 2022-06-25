@@ -15,7 +15,7 @@ name = "test"
 path = "src/main.rs"
 
 [dependencies]
-arrow = "15.0.0"
+arrow = "16.0.0"
 kafka = "0.9.0"
 ndarray = "0.15.3"
 pagerduty-rs = "0.1.1"
