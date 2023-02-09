@@ -1,4 +1,4 @@
-version: 2
+version: 1
 updates:
   # Enable version updates for cargo
   - package-ecosystem: "cargo"
@@ -7,6 +7,6 @@ updates:
     # Check the cargo registry for updates every day (weekdays)
     schedule:
       interval: "weekly"
-
+    target-branch: "main"
     # Allow up to 5 open pull requests for cargo dependencies
     open-pull-requests-limit: 5
