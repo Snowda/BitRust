@@ -15,7 +15,7 @@ name = "test"
 path = "src/main.rs"
 
 [dependencies]
-lazy_static = "1.4.0"
+lazy_static = "1.5.0"
 
 # arrow = "16.0.0"
 # kafka = "0.9.0"
